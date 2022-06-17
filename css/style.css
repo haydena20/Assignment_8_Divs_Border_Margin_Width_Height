@@ -1,0 +1,131 @@
+/* These are variables in CSS */
+:root {
+    --left-container: #006699;
+    --left-top-container: #FF6600;
+    --left-inner-container: #FFCC00;
+
+    --right-container: #666600;
+    --right-top-container: #ff6633;
+    --right-inner-container: #ffcc00;
+
+}
+
+/* Change everything below here for the assignment */
+
+/* Left Container */
+
+#left-container {
+    background-color: var(--left-container);
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto;
+	height: 80vh;
+}
+
+
+#left-top-container {
+    grid-row-start: 1;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    height: 80%;
+    width: 30%;
+    background-color: var(--left-top-container);
+}
+
+#left-bottom-container {
+    grid-row-start: 2;
+    background-color: var(--left-top-container);
+	height: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 1%;
+    margin-top: auto;
+    margin-bottom: 10%;
+    display: grid;
+}
+
+#container-a {
+    color: black;
+    background-color: var(--left-inner-container);
+    height: 20%;
+    width: 75%;
+    margin-top: 40%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 1.5vh;
+}
+
+#container-b {
+    background-color: var(--left-inner-container);
+    color: black;
+    width: 25%;
+    height: 2.5vh;
+    margin-top: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+/* Right Container */
+
+#right-container {
+    background-color: var(--right-container);
+    color: white;
+    display: grid;
+    gap: 2vh;
+    grid-template-rows: auto 28% 35%;
+	height: 80vh;
+}
+
+#right-top-container {
+    background-color: var(--right-top-container);
+    height: 100%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#right-middle-container {
+    background-color: var(--right-top-container);
+    margin-top: 5%;
+    margin-left: 1%;
+    height: 2.5vh;
+    width: 75%;
+}
+
+#right-bottom-container {
+    background-color: var(--right-top-container);
+    width:30%;
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+
+#container-c {
+    width:50%;
+    margin-left: 25%;
+    height: 33%;
+    background-color: var(--right-inner-container);
+    color: black;
+}
+
+#container-d {
+    background-color: var(--right-inner-container);
+    color: black;
+    margin-left: 5%;
+    width: 75%;
+    height: 100%;
+    text-align: right;
+}
+
+#container-e {
+    background-color: var(--right-inner-container);
+    color: black;
+    width: 20%;
+    height: 20%;
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 2%;
+    margin-left: 50%;
+
+}
